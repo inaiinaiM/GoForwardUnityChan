@@ -24,7 +24,7 @@ public class CubeController : MonoBehaviour {
 		}
 
 	}
-
+	//Cubeが接触した時の効果音
 	void OnCollisionEnter2D(Collision2D collision){
 
 		if (gameObject.tag == "Ground" || gameObject.tag == "CubeTag")
